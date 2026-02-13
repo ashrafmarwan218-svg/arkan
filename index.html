@@ -17,6 +17,7 @@
 <body class="bg-white text-slate-900">
 
     <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md shadow-sm px-6 py-4 flex justify-between items-center">
+        
         <div class="text-2xl font-black text-blue-900">ARKAN <span class="text-blue-500 font-light">PROPERTIES</span></div>
         <div class="hidden md:flex gap-8 text-sm font-bold text-blue-900">
             <a href="#" class="hover:text-blue-500">الرئيسية</a>
@@ -25,14 +26,22 @@
         </div>
     </nav>
 
-    <section class="h-[80vh] flex items-center justify-center bg-blue-900 text-white text-center px-4 pt-20">
-        <div>
-            <h1 class="text-5xl md:text-7xl font-bold mb-6">نصنع للمستقبل <span class="text-blue-300">أركانًا</span></h1>
-            <p class="text-lg md:text-xl text-blue-100 max-w-2xl mx-auto mb-8 font-light">شركة أركان العقارية: حيث تجتمع الخبرة الهندسية مع رفاهية التصميم في كل وحدة نبتكرها.</p>
-            <a href="#projects" class="bg-white text-blue-900 px-8 py-4 rounded-full font-bold shadow-xl hover:bg-blue-50 transition">تصفح مشاريعنا الآن</a>
+    <section id="home" class="relative h-[100vh] flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=2071" 
+                 class="w-full h-full object-cover" alt="Arkan Background">
+            <div class="absolute inset-0 bg-[#0047AB]/50 backdrop-blur-[2px]"></div>
+        </div>
+
+        <div class="relative z-10 text-center text-white px-4">
+            <h1 class="text-6xl md:text-8xl font-black mb-6 drop-shadow-2xl">أركان للتطوير</h1>
+            <p class="text-xl md:text-2xl mb-10 max-w-3xl mx-auto font-light">نصنع لك إرثاً من الرفاهية</p>
+            <div class="flex gap-4 justify-center">
+                <a href="#projects" class="bg-white text-[#0047AB] px-10 py-4 rounded-full font-black hover:bg-slate-100 transition shadow-2xl">استكشف مشاريعنا</a>
+            </div>
         </div>
     </section>
-
+ 
     <section id="projects" class="py-20 bg-slate-50">
         <div class="container mx-auto px-6">
             <h2 class="text-3xl font-bold text-blue-900 mb-12 text-center">أحدث المشاريع العقارية</h2>
